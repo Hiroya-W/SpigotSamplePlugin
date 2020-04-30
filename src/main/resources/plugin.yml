@@ -1,0 +1,5 @@
+name: SpigotSamplePlugin
+version: "1.0"
+api-version: "1.15"
+main: jp.yuyu.SpigotSamplePlugin.Main
+author: Hiroya_W
