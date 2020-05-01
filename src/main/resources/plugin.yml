@@ -3,3 +3,8 @@ version: "1.0"
 api-version: "1.15"
 main: jp.yuyu.SpigotSamplePlugin.Main
 author: Hiroya_W
+commands:
+  hello:
+    usage: "/<command>"
+    description: "挨拶する"
+    aliases: -hi
