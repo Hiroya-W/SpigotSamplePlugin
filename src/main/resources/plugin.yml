@@ -16,3 +16,6 @@ commands:
   dice:
     usage: "/<command> [Max] [Count]"
     description: "サイコロを振る"
+  timer:
+    usage: "/<command> [Seconds]"
+    description: "カウントダウンします"
