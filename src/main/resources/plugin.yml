@@ -7,4 +7,12 @@ commands:
   hello:
     usage: "/<command>"
     description: "挨拶する"
-    aliases: -hi
+    aliases:
+      - hi
+  head:
+    usage: "/<command> [Player]"
+    description: "プレイヤーの頭を取得します"
+    permission: minecraft.command.give
+  dice:
+    usage: "/<command> [Max] [Count]"
+    description: "サイコロを振る"
